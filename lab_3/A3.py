@@ -16,5 +16,5 @@ else:
 total_cost = round(total_cost, 2)
 average_cost = round(total_cost / volume_used, 2)
 
-print("Previous   Current   Used   Cost   Average Cost")
+print("Предыдущее  Текущее   Использовано   К оплате   Средняя цена")
 print("  {}       {}    {}   {:.2f}       {:.2f}".format(pre, cur, volume_used, total_cost, average_cost))
