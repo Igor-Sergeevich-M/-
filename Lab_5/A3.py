@@ -1,0 +1,10 @@
+def abbreviation(line):
+    line = line.upper().split()
+    st = ''
+    for word in line:
+        if len(word) > 2:
+            st += word[0]
+    return st
+
+text = input('Введите текст: ')
+print(abbreviation(text))
